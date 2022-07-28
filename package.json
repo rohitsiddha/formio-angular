@@ -1,6 +1,6 @@
 {
   "name": "@formio/angular",
-  "version": "5.3.0-rc.2",
+  "version": "5.3.0-rc.2-file-button",
   "scripts": {
     "ng": "ng",
     "build": "ng build angular-formio && npm run version",
@@ -52,7 +52,7 @@
     "@types/jasminewd2": "^2.0.10",
     "@types/node": "^17.0.19",
     "codelyzer": "^6.0.2",
-    "formiojs": "^4.14.1",
+    "formiojs": "git+https://github.com/virajkanwade/formio.js.git#table-grid-size",
     "jasmine-core": "^4.0.0",
     "jasmine-spec-reporter": "^7.0.0",
     "karma": "^6.3.16",
